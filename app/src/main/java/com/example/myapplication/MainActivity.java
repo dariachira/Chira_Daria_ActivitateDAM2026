@@ -1,6 +1,9 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +24,36 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d("Seminar","onStart");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("Seminar","onPause");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e("Seminar","onResume");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.v("Seminar","onStop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.w("Seminar","onDestroy");
+    }
+
+
 }
