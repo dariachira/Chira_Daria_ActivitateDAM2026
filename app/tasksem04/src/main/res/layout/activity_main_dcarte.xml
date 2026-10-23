@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date carte"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/ET_titlu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titlu" />
+
+        <Spinner
+            android:id="@+id/SP_gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/RB_cartonata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Cartonata" />
+
+            <RadioButton
+                android:id="@+id/RB_necartonata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Necartonata" />
+        </RadioGroup>
+
+        <RatingBar
+            android:id="@+id/RB_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <CheckBox
+            android:id="@+id/CB_citita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Am citit-o" />
+
+        <Switch
+            android:id="@+id/SW_imprumutabila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poate fi imprumutata" />
+
+        <Button
+            android:id="@+id/BTN_salveaza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salveaza" />
+    </LinearLayout>
+</ScrollView>
