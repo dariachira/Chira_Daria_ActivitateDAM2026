@@ -11,6 +11,12 @@
         android:layout_height="wrap_content"
         android:text="Adauga carte" />
 
+    <Button
+        android:id="@+id/BTN_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vezi lista" />
+
     <TextView
         android:id="@+id/TV_rezultat"
         android:layout_width="match_parent"

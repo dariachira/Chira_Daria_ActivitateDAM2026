@@ -29,6 +29,10 @@
             android:name=".ActivitateaTrei"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.tasksem04.MainActivityt04$MainActivity2"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

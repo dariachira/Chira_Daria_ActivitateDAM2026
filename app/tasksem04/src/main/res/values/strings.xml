@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">taskSem04</string>
+    <string-array name="genuri">
+        <item>Roman</item>
+        <item>SF</item>
+        <item>Poezie</item>
+        <item>Stiintific</item>
+    </string-array>
 </resources>
